@@ -15,6 +15,7 @@ import testSupport.TestRunner;
  * @author Claude Anderson.
  */
 //@RunWith(TestRunner.class)
+// HISS
 public class AnagramTests {
 	private static float points = 0;
 	
