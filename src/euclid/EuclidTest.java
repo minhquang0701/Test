@@ -6,8 +6,7 @@ import org.junit.AfterClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import testSupport.TestRunner;
-
+import testSupport.GraphVisualization;
 /**
  * Simple introduction or reminder about different kinds of maps.
  * 
@@ -31,7 +30,7 @@ public class EuclidTest {
 		assertEquals(6, Euclid.gcd(18, 42));
 		points += 1;
 	}
-
+//
 	@Test
 	public void testLargeGcd() {
 		assertEquals(60, Euclid.gcd(180, 120));
@@ -42,8 +41,11 @@ public class EuclidTest {
 	public void testLargePrimeGcd() {
 		assertEquals(89, Euclid.gcd(178, 445));
 		points += 1;
+		GraphVisualization.createAndShowGUI();
+//		
+//
 	}
-
+//
 	@Test
 	public void testWorstCaseRuntime() {
 		// Each of these uses the most iterations possible for the size of a and

@@ -11,7 +11,6 @@ import org.junit.AfterClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import testSupport.TestRunner;
 
 /**
  * Tests the circle and triangle classes

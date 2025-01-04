@@ -24,6 +24,7 @@ public class Anagram {
 		if (s1.length() != s2.length()) {
 			return false;
 		}
+		boolean bol = helper("","");
 		String comparingString = s1.toUpperCase();
 		s2 = s2.toUpperCase();
 		for (int a = 0; a < s1.length(); a++) {
@@ -36,4 +37,8 @@ public class Anagram {
 		}
 		return false;
 	}
+	public static boolean helper(String s1, String s2) {
+		return false;
+	}
+
 }
